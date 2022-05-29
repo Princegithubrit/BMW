@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css"> 
+     body{
+     	background-color: rgba(27, 31,34,0.85);
+     }
+     h1{
+     	font-size: 2.1rem;
+     	line-height: 1.4;
+     	letter-spacing: 0.5rem;
+     	text-align: center;
+     	color: white;
+     	margin-top: 50px;
+     }
+     .maindiv{
+     	width: 70%;
+     	height: 400px;
+     	position: absolute;
+     	left: 50%;
+     	top: 50%;
+     	transform: translate(-50%, -50%);
+     	background-image: url(see.jpg);
+     	background-size: 100% 100%;
+     	box-shadow: 1px 2px 10px whitesmoke;
+     	animation: slider 10s infinite linear;
+
+     }
+     @keyframes slider{
+     	0%{background-image: url('see.jpg','pay.png');  }
+     	35%{background-image: url(pay.png);  }
+     	75%{background-image: url(bnb.jpg);  }
+     	85%{background-image: url(take.jfif);  }
+     	100%{background-image: url(chance.jpg);  }
+     	150%{background-image: url(oboy.);  }
+     }
+
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>css slider animation</title>
+</head>
+<body>
+	<h1>IMAGES FLIP</h1>
+	<div class="maindiv"></div>
+
+</body>
+</html>
